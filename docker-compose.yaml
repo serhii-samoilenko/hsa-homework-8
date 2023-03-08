@@ -5,7 +5,9 @@ services:
     restart: always
     volumes:
       - ./config/nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./data:/var/log/nginx
-      - ./assets:/var/www/html
+      - ./logs:/etc/nginx/logs
+      - ./www:/etc/nginx/html
+#      - ./cache:/var/cache/nginx
     ports:
       - '8080:8080'
+# /etc/nginx/html/index.html

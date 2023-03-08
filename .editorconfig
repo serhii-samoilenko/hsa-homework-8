@@ -13,7 +13,7 @@ insert_final_newline = true
 indent_size = 2
 ij_yaml_keep_indents_on_empty_lines = false
 
-[*.json]
+[*.html]
 indent_size = 2
 
 [*.md]
